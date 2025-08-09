@@ -6,7 +6,7 @@ typedef unsigned int uint;
 typedef unsigned char uchar;
 
 # define LED_R 0   // connected to GPIO17
-# define LED_G 1   // connected to GPIO18
+# define LED_G 1   // [S] connected to GPIO18
 
 void init_led() {
 	softPwmCreate(LED_R, 0, 255);
