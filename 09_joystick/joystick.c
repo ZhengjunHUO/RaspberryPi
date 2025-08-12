@@ -3,7 +3,6 @@
 #include <stdint.h>
 #include <string.h>
 #include <wiringPi.h>
-#include <time.h>
 #include <adc0832.h>
 
 #define PIN_DATA_IN 0		// DO(6) -> CPIO17
